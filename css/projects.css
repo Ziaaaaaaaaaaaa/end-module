@@ -1,0 +1,52 @@
+.img{
+    width: 8rem;
+}
+
+.navbar{
+    background-color: black;
+    display: flex;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin-right: 5rem;
+}
+
+li{
+    padding: 1rem;
+}
+
+li > a{
+    text-decoration: none;
+    color: white;
+}
+
+.signup{
+    width: 25rem;
+    height: 25rem;
+    margin-left: 2rem;
+    
+    
+}
+
+.login{
+    width: 25rem;
+    height: 25rem;
+    margin-left: 10rem;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    margin-left: 2rem;
+}
+
+
+
+
+
+
+
