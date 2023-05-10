@@ -22,31 +22,18 @@ li > a{
     color: white;
 }
 
-.signup{
-    width: 25rem;
-    height: 25rem;
-    margin-left: 2rem;
-    
-    
+.projects{
+    color: white;
+    margin-left: 45rem;
 }
 
-.login{
-    width: 25rem;
-    height: 25rem;
-    margin-left: 10rem;
+.move{
+    margin-left: 20px;
 }
 
-h1{
-    text-align: center;
+li > a:hover{
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 999999px;
 }
-
-h3{
-    margin-left: 2rem;
-}
-
-
-
-
-
-
-

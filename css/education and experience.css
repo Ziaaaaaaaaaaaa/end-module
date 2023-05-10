@@ -72,4 +72,15 @@ h3{
    padding-top: 18px;
 }
 
+.textcolor{
+    color: white;
+}
+
+li > a:hover{
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 999999px;
+}
+
 
