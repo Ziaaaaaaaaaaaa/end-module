@@ -86,3 +86,17 @@ li .nav-link{
 
 }
 
+.home-page{
+    margin-top: 8rem;
+}
+
+footer{
+    margin-top: 15vh;
+}
+
+@media (max-width: 300px) {
+    .schoolpic{
+        width: 100%;
+    }
+}
+

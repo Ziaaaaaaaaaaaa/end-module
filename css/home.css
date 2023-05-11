@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    min-height: 100vh;
+}
+
 
 .img{
     width: 8rem;
@@ -50,6 +54,7 @@ main{
     border-radius: 50%;
     align-items: center;
     margin-left: 65rem;
+
 }
 
 li > a:hover{
@@ -61,4 +66,16 @@ li > a:hover{
     display:flex !important;
     justify-content: space-between !important;
     float:right !important;
+}
+
+footer{
+    margin-top: 15vh;
+}
+
+@media (min-width: 300px) and (max-width: 700px){
+    .home-page{
+        flex-direction: column;
+    }
+
+
 }

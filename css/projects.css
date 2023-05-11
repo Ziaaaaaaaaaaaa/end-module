@@ -40,3 +40,13 @@ li .nav-link{
     transition: all 0.5s ease 0s;
 
 }
+
+.home-page{
+    margin-top: 8rem;
+}
+
+footer{
+    margin-top: 15vh;
+}
+
+@media (min-width: 300px) and (max-width: 700px)
