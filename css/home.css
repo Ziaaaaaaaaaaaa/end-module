@@ -28,9 +28,12 @@ li{
 
 li > a{
     text-decoration: none;
-    color: white;
+    color: rgba(255, 255, 255, 0.674);
 }
+li .nav-link{
+    transition: all 0.5s ease 0s;
 
+}
 .home-page{
     margin-top: 8rem;
 }
@@ -50,11 +53,12 @@ main{
 }
 
 li > a:hover{
-    background-color: white;
-    color: black;
-    padding: 1rem;
-    border-radius: 999999px;
+    background-color: rgba(255, 255, 255, 0.614);
+   border-radius: 999999px;
 }
 
-
-
+.navbar-nav a{
+    display:flex !important;
+    justify-content: space-between !important;
+    float:right !important;
+}

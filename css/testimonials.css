@@ -1,4 +1,4 @@
-.img{
+.Navimg{
     width: 8rem;
 }
 
@@ -23,8 +23,47 @@ li > a{
 }
 
 li > a:hover{
-    background-color: white;
-    color: black;
-    padding: 1rem;
-    border-radius: 999999px;
+    background-color: rgba(255, 255, 255, 0.614);
+   border-radius: 999999px;
+}
+
+li .nav-link{
+    transition: all 0.5s ease 0s;
+
+}
+
+.imgsize{
+    width: 8rem;
+}
+
+.insta {
+    font-size: 50px;
+    color: white;
+    float: left;
+    margin: 20px;
+    height: 40px;
+}
+
+.icon{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.footImg{
+    width: 120px !important;
+}
+
+@media (max-width: 768px) {
+    .flex-test{
+        flex-direction: column;
+        align-items: center;
+    }
 }

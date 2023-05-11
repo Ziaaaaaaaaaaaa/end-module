@@ -34,10 +34,13 @@ h5{
 }
 
 li > a:hover{
-    background-color: white;
-    color: black;
-    padding: 1rem;
-    border-radius: 999999px;
+    background-color: rgba(255, 255, 255, 0.614);
+   border-radius: 999999px;
+}
+
+li .nav-link{
+    transition: all 0.5s ease 0s;
+
 }
 
 .text{
