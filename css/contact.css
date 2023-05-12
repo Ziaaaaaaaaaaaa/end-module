@@ -70,7 +70,7 @@ li > a{
     width: 100%;
 }
 .msg textarea{
-    height: 212px;
+    height: 100px;
 }
 ::-webkit-input-placeholder{
     color: white;
@@ -103,4 +103,6 @@ footer{
     display: flex;
     justify-content: center;
 }
+
+@media (min-width: 300px) and (max-width: 700px) 
 
