@@ -46,6 +46,7 @@ li .nav-link{
 .text{
     color: white;
     margin-top: 4rem;
+    height: 70svh;
 }
 
 .home-page{
@@ -54,5 +55,14 @@ li .nav-link{
 
 footer{
     margin-top: 15vh;
+}
+
+footer{
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
 }
 
